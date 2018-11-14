@@ -1,0 +1,64 @@
+
+<div role="main" class="main">
+  <section class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Task2 : Customer Details</h1>
+        </div>
+      </div>
+    
+    </div>
+  </section>
+    <div id="wrapper">
+  <table align="center" cellspacing=2 cellpadding=5 id="data_table" border="1">
+  <tr>
+  <th>Name</th>
+  <th>email</th>
+  <th>phone number</th>
+  </tr>
+  
+  <tr id="row1">
+  <td id="name_row1">Ankit</td>
+  <td id="country_row1">ankit123@hotmail.com</td>
+  <td id="age_row1">9658741245</td>
+  <td>
+  <input type="button"class="btn btn-primary"id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+  <input type="button" class="btn btn-primary"id="save_button1" value="Save" class="save" onclick="save_row('1')">
+  <input type="button" class="btn btn-primary"value="Delete" class="delete" onclick="delete_row('1')">
+  </td>
+  </tr>
+  
+  <tr id="row2">
+  <td id="name_row2">Shawn</td>
+  <td id="country_row2">shaw@gmail.com</td>
+  <td id="age_row2">6589741237</td>
+  <td>
+  <input type="button"class="btn btn-primary" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
+  <input type="button" class="btn btn-primary"id="save_button2" value="Save" class="save" onclick="save_row('2')">
+  <input type="button" class="btn btn-primary"value="Delete" class="delete" onclick="delete_row('2')">
+  </td>
+  </tr>
+  
+  <tr id="row3">
+  <td id="name_row3">Rahul</td>
+  <td id="country_row3">raw@yahoo@gmail.com</td>
+  <td id="age_row3">9254847619</td>
+  <td >
+  <input type="button" class="btn btn-primary"id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
+  <input type="button" class="btn btn-primary"id="save_button3" value="Save" class="save" onclick="save_row('3')">
+  <input type="button" class="btn btn-primary"value="Delete" class="delete" onclick="delete_row('3')">
+  </td>
+  </tr>
+  
+  <tr>
+  <td><input type="text" id="new_name"></td>
+  <td><input type="text" id="new_country"></td>
+  <td><input type="text" id="new_age"></td>
+  <td><button id="addToTable" class="btn btn-primary"onclick="add_row();" value="Add Row">Add <i class="fa fa-plus"></i></button></td>
+  
+  </tr>
+  
+  </table>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+
+<div role="main" class="main">
+        <section class="page-header">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Task3 : Order Details</h1>
+              </div>
+            </div>
+          </div>
+        </section><div class="table1">
+  <div class="row">
+          <div class="col-md-3">
+              <h4>Date from</h4>
+              <input type="date" class="form-control" id="datefilterfrom" data-date-split-input="true">
+          </div>
+          <div class="col-md-3">
+              <h4>Date to</h4>
+              <input type="date"  class="form-control" id="datefilterto" data-date-split-input="true">
+          </div>
+          <div class="col-md-2">
+              <h4>DELIVERY</h4>
+             <select id="projectfilter" name="projectfilter" class="form-control"><option value="1">completed</option><option value="2">upcoming</option></select>
+          </div>
+       
+               <table id="testTable" class="table">
+              <thead>
+                  <tr>
+                      <th scope="col">Empid</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">Delivery</th>
+                     <th scope="col">Order Number</th>
+                 
+                  </tr>
+              </thead>
+              <tbody id="report">
+                <tr style="background-color:#f2f2f2;">
+                  <td class="proposalId">9</td>
+                  <td> 17/07/2018</td> 
+                  <td> completed</td>
+                <td> ORD12</td>
+                </tr>
+                <tr style="background-color:#f2f2f2;">
+                    <td class="proposalId">8</td><td> 18/07/2018</td><td> completed</td><td> ORD13</td></tr>
+                <tr style="background-color:#f2f2f2;">
+                    <td class="proposalId">7</td><td> 17/07/2018</td><td> upcoming</td><td> ORD14</td></tr>
+               <tr style="background-color:#f2f2f2;"><td class="proposalId">3</td><td> 19/07/2018</td><td> upcoming</td><td>ORD15</td></tr>
+               </tbody>
+            </table>
+      </div>
+    </div>
+</div>
